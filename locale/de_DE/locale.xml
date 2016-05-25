@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+ * @file plugins/importexport/unregisteredUsersIE/locale/de_DE/locale.xml
+ *
+ * Copyright (c) 2016 Language Science Press
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING. 
+ *
+ * Localization strings for the de_DE (German) locale.
+-->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.importexport.unregisteredUsers.displayName">Unregistered Users Import/Export</message>
+	<message key="plugins.importexport.unregisteredUsers.description">Import und Export von Gruppen unregistrierter Personen (csv-Format).</message>
+	<message key="plugins.importexport.unregisteredUsers.import">Import</message>
+	<message key="plugins.importexport.unregisteredUsers.import.instructions">Wählen Sie einen Datei aus und klicken Sie auf "Datei hochladen". Wenn dieser Prozess beendet ist, klicken Sie "Okay", um die Daten zu importieren. Eine Beispieldatei finden Sie in "examples/example.csv". Wenn Gruppen denselben Namen haben, werden sie als eine Gruppe interpretiert. Personeneinträge werden als eine Person interpretiert, wenn sie in allen Variablen übereinstimmen. </message>
+	<message key="plugins.importexport.unregisteredUsers.export.instructions">Klicken Sie auf "Okay", um alle Gruppen zu exportieren.</message>
+	<message key="plugins.importexport.unregisteredUsers.export">Export</message>
+	<message key="plugins.importexport.unregisteredUsers.results">Ergebnisse</message>
+
+  	<message key="plugins.importexport.unregisteredUsers.results">Ergebnisse</message>
+  	<message key="plugins.importexport.unregisteredUsers.results.inserted">Die folgenden Einträge wurden importiert:</message>
+  	<message key="plugins.importexport.unregisteredUsers.results.notInserted">Die folgenden Einträge wurden NICHT importiert:</message>
+
+  	<message key="plugins.inportexport.unregisteredUsers.uploadFile">Fehler beim Hochladen der Datei.</message>
+  	<message key="plugins.importexport.unregisteredUsers.instruction">Wenn Sie diese Import/Export-Funktion nutzen möchten muss das generische Plugin "Unregistered Users" installaliert und aktiviert sein. Um Gruppen und Personen einsehen zu können, 
+</message>
+
+</locale>

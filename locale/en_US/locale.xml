@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+ * @file plugins/importexport/unregisteredUsersIE/locale/en_US/locale.xml
+ *
+ * Copyright (c) 2016 Language Science Press
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Localization strings for the en_US (U.S. English) locale.
+-->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.importexport.unregisteredUsers.displayName">Unregistered Users Import/Export</message>
+	<message key="plugins.importexport.unregisteredUsers.description">Import and export of unregistered users (csv-format).</message>
+	<message key="plugins.importexport.unregisteredUsers.import">Import</message>
+	<message key="plugins.importexport.unregisteredUsers.import.instructions">Please select an csv-file to upload and press "Start Upload". When the upload has completed, press "OK" to import the data. See example file "example.csv". Groups must have unique names. Users are regarded as identical, if all their variables are identical. </message>
+	<message key="plugins.importexport.unregisteredUsers.export.instructions">To export all user groups click on 'OK'.</message>
+
+	<message key="plugins.importexport.unregisteredUsers.export">Export</message>
+	<message key="plugins.importexport.unregisteredUsers.results">Results</message>
+
+  	<message key="plugins.importexport.unregisteredUsers.results">Results</message>
+  	<message key="plugins.importexport.unregisteredUsers.results.inserted">The following entries have been imported:</message>
+  	<message key="plugins.importexport.unregisteredUsers.results.notInserted">The following entries have not been imported:</message>
+
+  	<message key="plugins.inportexport.unregisteredUsers.uploadFile">Error uploading the file.</message>
+  	<message key="plugins.importexport.unregisteredUsers.instruction">To use this import/export function, the generic plugin "Unregistered Users" must be installed and enabled. To view the groups and users </message>
+
+</locale>
